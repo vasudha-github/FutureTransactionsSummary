@@ -2,6 +2,8 @@
 
 This project is intended to read a input file text and output a csv 
 
+# Problem
+
 System A has produced the file Input.txt, which is a Fixed Width text file that contains the Future Transactions done by client 1234
 
 Requirements:
@@ -20,12 +22,16 @@ Total_Transaction_Amount should be a Net Total of the (QUANTITY LONG - QUANTITY 
 
 Notes: Each Record in the input file represents ONE Transaction from the client for a particular product. Please focus on code re-usability. 
 
-Initial Setup needed for the project:Steps:
+# Initial Setup needed for the project:Steps:
 
 1.Get the project into your workspace.
+
 2.The input file and output file locations can be mentioned in the propertyfile ConfigProperties.properties
+
 3.Place the input file in the location mentioned in the property file
+
 4.Run Main 
+
 5.You will see the output file generated in the location you mentioned in the property file.
 
 
